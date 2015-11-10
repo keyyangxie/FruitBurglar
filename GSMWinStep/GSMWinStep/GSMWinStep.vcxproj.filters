@@ -80,10 +80,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Alpha_Engine.dll">
+    <None Include="glew32.dll">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="glew32.dll">
+    <None Include="Alpha_Engine.dll">
       <Filter>Header Files</Filter>
     </None>
   </ItemGroup>

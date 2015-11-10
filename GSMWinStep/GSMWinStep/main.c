@@ -11,6 +11,7 @@ Purpose:		...
 #include "GameStateList.h"
 #include "GameStateManager.h"
 #include "Input.h"
+#include "AEEngine.h"
 
 //------------------------------------------------------------------------------
 // Private Consts:
@@ -63,9 +64,11 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	// Game Loop
 	while(Current == Next)
 	{
+	AESysFrameStart();
 	//Input_Handle();  »Øµ÷º¯Êý
 	pUpdate();
 	pDraw();
+	AESysFrameEnd();
 	}
 
 	pFree();
