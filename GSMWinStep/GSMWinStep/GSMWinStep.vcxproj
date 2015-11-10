@@ -119,6 +119,9 @@
   <ItemGroup>
     <Text Include="Output.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\游戏c文件\GProj_Asteroid\GProj_Asteroid\PlanetTexture.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

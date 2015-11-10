@@ -40,7 +40,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	// System Initialize
 	System_Initialize(hInstance, nCmdShow);
 
-	/*// GSM Initialize
+	// GSM Initialize
 	GSM_Initialize(GS_L1);
 
 	// Game Flow
@@ -75,7 +75,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 	Previous = Current;
 	Current = Next;
-	}*/
+	}
 
 	// System Exit
 	system("pause");

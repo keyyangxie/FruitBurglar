@@ -5,8 +5,28 @@ Author KY
 Date:
 Purpose:		输入模块  */
 
+
 #ifndef _Input
 #define _Input
+
+//新加全局变量
+enum{
+	KeyR,
+	KeyESC,
+	Key1,
+	Key2,
+	KeyUp,
+	KeyDown,
+	KeyLeft,
+	KeyRight,
+	KeyNUM    // 总放在最后一个
+};
+boolean KeyPressed[KeyNUM];
+
+//新加全局函数
+// 输入状态重置
+void Input_Initialize(void);
+
 
 //------------------------------------------------------------------------------
 // Typedef:
